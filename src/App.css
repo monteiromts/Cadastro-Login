@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #deec0f);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container de login */
+.login {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Título */
+.Titulo {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Logo */
+.Logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Logo img {
+  width: 80px;
+  height: auto;
+}
+
+/* Inputs */
+.formulario-E-mail,
+.Formulario-Password {
+  margin-bottom: 20px;
+}
+
+.formulario-Email-label,
+.formulario-Password-label {
+  font-weight: bold;
+  color: #444;
+}
+
+.formulario-Email-input,
+.form-label-password {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.formulario-Email-input:focus,
+.form-label-password:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Checkbox */
+.Formulario-Check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-check-label {
+  margin-left: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Botão */
+.btn.btn-primary {
+  width: 100%;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background-color: #5a67d8;
+}
+
+/* Links */
+.dropdown-divider {
+  margin: 20px 0;
+  border-top: 1px solid #eee;
+}
+
+.dropdown-item {
+  text-decoration: none;
+  color: #254cf8;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
